@@ -1,0 +1,8 @@
+nGenes=0
+Number of taxa = 0
+Number of sites = 0
+Number of variable sites = 0
+Number of informative sites = 0
+Number of characters (total) = 0
+% Missing characters (N's and -'s considered only) =NaN
+% Missing characters (all considered) =NaN

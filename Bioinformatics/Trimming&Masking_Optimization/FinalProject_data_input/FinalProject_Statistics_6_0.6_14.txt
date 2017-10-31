@@ -1,0 +1,8 @@
+nGenes=355
+Number of taxa = 96
+Number of sites = 555159
+Number of variable sites = 250961
+Number of informative sites = 151732
+Number of characters (total) = 53295264
+% Missing characters (N's and -'s considered only) =6.072004822041974
+% Missing characters (all considered) =6.198993591625703

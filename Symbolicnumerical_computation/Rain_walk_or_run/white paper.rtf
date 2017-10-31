@@ -1,0 +1,47 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang9\f0\fs22\par
+Final Project 'White Sheet' - Water Absorbance in the Rain\par
+Problem statement\par
+The problem i have decided to pursue is the concept of movement in an environment where you are being hit by droplets of water falling from the sky towards the ground from all directions, in other words rain. The scenario being calculated is how much water two objects will collect by moving at different speeds in a rainy environment where they will collide with droplets from above and in front of them depending on their speed.\par
+Goal and objectives\par
+The goal of this Project is to calculate how much water is collected by two absorbent cylinder shaped objects moving towards the same location but at different velocities. The reason for this study is to calculate whether hitting raindrops head on for a shorter amount of time will result is less contact with the water or more. When a object is moving at a slow motion in the rain it will collect rain drops from above and very minimal amount from collision in front of it, where as a object moving at a larger velocity will collide with many more droplets in front of it and from above. The factors to take into consideration when calculating which object will collect more water is the wind direction, the amount of time it takes each object and the tailwind produced by the accelerating object that allows it to avoid some droplets from above.\par
+Research methods/tasks\par
+For this project, my intentions are to create a program that can calculate \par
+the amount of water being absorbed by two cylindrical shaped objects (representing the body of a human being) moving towards the same location and on the same route/direction.  The program will contain a visual data plot depicting the scenario of two objects moving from one location to another at different speeds while running through many points on the graph. In order to attain an accurate result the program will take into account the following: \par
+Raindrop Density (Drops s-1 * m-2)) : The average number of raindrops which hit 1 square meter of flat, unobstructed, ground per second.\par
+horizontally and that the rain is at rest horizontally with respect to the wind.\par
+Travel Velocity (m/s) : The components of the velocity of the person who is walking / running / dancing / singing \'85 in the rain, with respect to the ground; it is assumed the person only travels horizontally.\par
+Travel Distance (m) : The distance over which the person is traveling to their destination; assumed to be a straight line over level ground\par
+Person Dimensions (m) : The Dimensions of the person, assuming they are a square. The output of the program will display the number of droplets that came in contact with each object once they each reached their location.\par
+Expected results\par
+My hypothesis for this experiment is based on the theory of setting the two circumstances of an object moving slowly versus a object moving at a higher speed to their respective extremes. By having an object move extremely slow through the rain it will collect a lot of drops from above, where as is a object were to move incredibly fast through the rain i predict it to have much less contact than the slower one even with collision of droplets due to its high velocity tailwind that will allow it to most likely avoid most drops coming from a downward direction and only hit a thin layer that it will collide with head on. In result, the accelerating object should remain more dry.\par
+ \par
+Preliminary Report\par
+ \par
+The approach I have decided to take in order to calculate how many raindrops a moving object collects (assuming it has an absorbency of 100%) is through a visual methodology. By creating a matrix by matrix grid and using the X,Y coordinates at specific areas where raindrops are located (there is no limit to how much rain is allowed in the unit), a square shaped matrix will be looped through the grid by the parameters determined by the user. Any coordinates the object is surrounded by from above and in front are accounted as raindrops that the are colliding with the object. This method however contains many flaws and will be corrected as research into this subject continues. The tasks taken in order to achieve all this is as follows:\par
+\bullet        Task 1: Create the rain environment through the use of meshgrid. By creating a X*Y matrix I can use these numbers as a simulation for raindrops, such as (1,1) being a 1m unit that has 50 drops hitting it at a certain amount of times per second and so on with (1,2)\'85(1,3)\'85(x,x).\par
+\bullet        Task 2: once the environment is set, the dimensions of the object must then be set. In this program I\rquote ve decided to make the object square shaped instead of cylindrical since it will be a 2D environment (instead of a human being representation, just pretend its SpongeBob). The parameters of height and width will be correlated to the Y axis and the X axis respectfully. These values will be looped through the grid once the rest of the parameters are set.\par
+\bullet        Task 3: Now that the environment and object parameters are set, the real determining factors must be input. The objects velocity against stationary/static rain fall, The distance it will travel and the amount of raindrops per unit. Once these values are put it the time parameter will be calculated through T=D/V and the flux through raindrops per unit/time.\par
+\bullet        With all the determinants in place the calculations can take place once placed through the equation:\par
+\bullet        Task 4: With all the parameters set, the loop will run the object through the meshgrid until it reaches the set destination in accordance to the speed/time. In order to count what raindrops the square object is coming in contact with from above it will count any units that it is greater than it on the Y axis and will soak up more depending on the objects width. It will also count all units that are greater than it on the X axis according to its height.\par
+\bullet        Future work to be done: I need to optimize the Boolean statements in the loops and if statements to accurately count the amount of drops.\par
+\bullet        Unfortunately the error in my program is major since it is not accurately taking into account the velocity tailwind that will show that at a certain speed some raindrops from above will be avoided. My theory at the moment is to take into account rain velocity in relation to the objects and somehow calculate when a raindrop will be missed if the objects velocity exceeds the falling speed of the rain.\par
+\bullet        My research could be much further modified by creating this into a 3D model and taking into account wind velocity as well from the sides, back and front depending on its direction.\par
+ \par
+The breakdown of how you calculate this problem is through kinematics (the study of a objects motion with no force added to it), relative velocity between your speed to the velocity of the wind against you (although this is purely mathematical theory since my program will not be taking into account rain velocity), vector components by taking into account that rain not only falls on you from a vertical motion but also horizontal hence the calculation of rain in front of the object, and the flux of the rain determining how much rain will be hitting one square unit within the time set (drops/sec). \par
+\pard\sa200\sl276\slmult1\par
+\bullet  Problem Statement (20 points)\par
+\endash  Significance of the study\par
+The problem being observed is the significance of running vs. walking in the rain.  Rain fall is a scenario in nature where droplets of water is falling for miles from clouds in the sky and as it falls it is also influenced by another factor, wind.  It is because of these factors that this problem requires more intricate calculations in order to derive a solution to the question stated. By  calculating what speed is optimal for an object to go through such an environment, the data collected by this can be used for a wide range of other situations with a similiar scenario. \par
+\endash  Previous works by others\par
+\bullet  Goal and objectives (10 points)\par
+\endash  Clearly define your goal and objectives\par
+\bullet  Implementation (20 points)\par
+\endash  How do you get the job done?\par
+\bullet  Results and analysis (40 points)\par
+\endash  The most important part for application type of study.\par
+\bullet  Conclusions (10 points)\par
+\endash  What have you learned or concluded from this study?\par
+\pard\sa200\sl276\slmult1 Problem statement \par
+}
+ 
