@@ -23,5 +23,6 @@ Linear Equations and Gauss Elimination:
 
 Non-Linear Equations:
 [Algorithm_projects/linear-equations&Gaussian-elimination/lab2.pdf](https://github.com/Ron530/Projects/blob/f0527f887b74828cb696e5a97e491296c60cf4f0/Algorithm_projects/linear-equations&Gaussian-elimination/lab2.pdf)
+
 [Algorithm_projects/non-linear-equations/lab1.pdf](https://github.com/Ron530/Projects/blob/f0527f887b74828cb696e5a97e491296c60cf4f0/Algorithm_projects/non-linear-equations/lab1.pdf)
 
