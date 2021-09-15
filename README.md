@@ -1,5 +1,6 @@
 # Projects
 These are all the projects I have worked on to date.
+
 The solutions to these problems are found in the same directory the pdf files are stored in.
 
 Conjugate-gradient and Interpolation:
