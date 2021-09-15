@@ -8,3 +8,8 @@ Conjugate-gradient and Interpolation:
 
 LU-Decomposition:
 [Algorithm_projects/LU-Decomposition/lu_iter.pdf](https://github.com/Ron530/Projects/blob/efe66d28a4654e1ac5ef6277dead7f1edbce51ef/Algorithm_projects/LU-Decomposition/lu_iter.pdf)
+
+Least-Square-Approximation:
+[Algorithm_projects/Least-Square-Approximation/LLS.pdf](https://github.com/Ron530/Projects/blob/b5e83ac713ceb16219ac73aacc39cbf2f0b68ad0/Algorithm_projects/Least-Square-Approximation/LLS.pdf)
+
+
