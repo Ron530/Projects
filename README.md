@@ -12,4 +12,16 @@ LU-Decomposition:
 Least-Square-Approximation:
 [Algorithm_projects/Least-Square-Approximation/LLS.pdf](https://github.com/Ron530/Projects/blob/b5e83ac713ceb16219ac73aacc39cbf2f0b68ad0/Algorithm_projects/Least-Square-Approximation/LLS.pdf)
 
+Numerical-Differentiation:
+[Algorithm_projects/Numerical-Differentiation/diff_integ_chen_combined(1).pdf](https://github.com/Ron530/Projects/blob/f0527f887b74828cb696e5a97e491296c60cf4f0/Algorithm_projects/Numerical-Differentiation/diff_integ_chen_combined(1).pdf)
+
+Optimization Algorithms
+[Algorithm_projects/Optimization/Lab4.pdf](https://github.com/Ron530/Projects/blob/f0527f887b74828cb696e5a97e491296c60cf4f0/Algorithm_projects/Optimization/Lab4.pdf)
+
+Linear Equations and Gauss Elimination:
+[Algorithm_projects/linear-equations&Gaussian-elimination/gaussL.pdf](https://github.com/Ron530/Projects/blob/f0527f887b74828cb696e5a97e491296c60cf4f0/Algorithm_projects/linear-equations&Gaussian-elimination/gaussL.pdf)
+
+Non-Linear Equations:
+[Algorithm_projects/linear-equations&Gaussian-elimination/lab2.pdf](https://github.com/Ron530/Projects/blob/f0527f887b74828cb696e5a97e491296c60cf4f0/Algorithm_projects/linear-equations&Gaussian-elimination/lab2.pdf)
+[Algorithm_projects/non-linear-equations/lab1.pdf](https://github.com/Ron530/Projects/blob/f0527f887b74828cb696e5a97e491296c60cf4f0/Algorithm_projects/non-linear-equations/lab1.pdf)
 
