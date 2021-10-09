@@ -27,5 +27,8 @@ Non-Linear Equations part 1:
 Non-Linear Equations part 2:
 [Algorithm_projects/linear-equations&Gaussian-elimination/lab2.pdf](https://github.com/Ron530/Projects/blob/f0527f887b74828cb696e5a97e491296c60cf4f0/Algorithm_projects/linear-equations&Gaussian-elimination/lab2.pdf)
 
+Centered Difference-  Backward Euler- Crank Nicolson Equation- Thomas Algorithm:
+[Continious_Discrete_Problems/Crank_Nicolson/assignment6.pdf](https://github.com/Ron530/Projects/blob/be2e1abaf4b702bef42de6beec9535713934fd22/Continious_Discrete_Problems/Crank_Nicolson/assignment6.pdf)
+
 
 
