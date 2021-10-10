@@ -66,6 +66,11 @@ Algorithm Analysis- Random Walks- Brownian motion- single linkage heirachical cl
 Applying Monte Carlo Simulations to solve the Monty Hall problem and Three Man Duel:
 [Scientific_programming_in_Python/lab2.py](https://github.com/Ron530/Projects/blob/d50ed7458f95a95c28e256972c62288deeaea53d/Scientific_programming_in_Python/lab2.py)
 
+Bracketing Algorithm- Fixed Point Iteration- Newtons Method- Secant Method:
+[Symbolicnumerical_computation/Algorithms_to_find_zeros(secant,newton,bracketing etc.)/Homework4.pdf](https://github.com/Ron530/Projects/blob/d3f595ebebe1f424b9f0a7ca9a5327194b38d7da/Symbolicnumerical_computation/Algorithms_to_find_zeros(secant,newton,bracketing%20etc.)/Homework4.pdf)
+
+Project that determines whether it is more efficient to walk or run through a rain storm, taking into account object shape, velocity and environmental conditions sourounding it:
+[Symbolicnumerical_computation/Rain_walk_or_run/walkorrun.m](https://github.com/Ron530/Projects/blob/d3f595ebebe1f424b9f0a7ca9a5327194b38d7da/Symbolicnumerical_computation/Rain_walk_or_run/walkorrun.m)
 
 
 
